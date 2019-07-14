@@ -11,7 +11,8 @@ import com.ywf.sort.Sort;
 public class app {
     public static void main(String[] args) {
         int array[] = {2,8,9,6,5,7,3,1};
-        Sort.quickSort(array,0,array.length - 1);
+
+        Sort.BubbleSort(array);
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
